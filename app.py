@@ -111,7 +111,7 @@ def get_top_results():
     #extract only the top n; n here is 10
     keywords=extract_topn_from_vector(feature_names,sorted_items,3)
 
-    # use bing api with query from tf-idf
+    # use newsapi with query from tf-idf
     keyword_string = ""
     for k in keywords:
         print(k,sys.stderr)
